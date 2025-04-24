@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [8.26.0](https://github.com/kjohnsen/snakemake/compare/v8.25.5...v8.26.0) (2024-12-21)
+
+
+### Features
+
+* add helpers for deferred input/output etc. item access ([#2927](https://github.com/kjohnsen/snakemake/issues/2927)) ([2cca9bc](https://github.com/kjohnsen/snakemake/commit/2cca9bc56b41a7410ea6696a20d4565bc32b564e))
+
+
+### Bug Fixes
+
+* require current yte release which contains an important bug fix for cases where numpy/pandas data is passed to templates ([#3227](https://github.com/kjohnsen/snakemake/issues/3227)) ([c3339da](https://github.com/kjohnsen/snakemake/commit/c3339da35e04d82fb872e7cabec2fa6fd6e9f15c))
+
 ## [8.25.5](https://github.com/snakemake/snakemake/compare/v8.25.4...v8.25.5) (2024-11-29)
 
 
